@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class bridge1 : MonoBehaviour
 {
+    /*
+        [SerializeField] private
+        => 객체를 숨기면서, 유니티 인스펙터창에서 값을 수정할 수 있게된다.
+    */
     [SerializeField] private Transform target;
     [SerializeField] private float scrollAmount;
 
